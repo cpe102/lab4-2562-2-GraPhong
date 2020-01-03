@@ -10,7 +10,17 @@ double findDistance(double u, double a, double t){
 int main(){
 
   //Calling findDistance() using test cases
-  double x = findDistance(0,0.5,1);
+  cout << "Enter u = "<< u<<"\n";
+  cin >> u;
+
+  cout << "Enter a = "<< u<<"\n";
+  cin >> a;
+
+  cout << "Enter t = "<< u<<:"\n";
+  cin >> t;
+
+  
+  double x = findDistance(u,a,t);
   cout<<"Distance = "<< x ;
   return 0;
 }
